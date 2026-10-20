@@ -2,9 +2,8 @@
 
 华为墨水屏没有公开自己的全刷接口，KOReader 里也没给它做适配，所以 MatePad Paper 上翻页残影清不掉，设置里也找不到全刷间隔。
 
-我们找到了这个接口，并给 KOReader 补上了适配。
+我找到了这个接口，做了个插件，能让KOReader能够调用全刷。同时，我让KOReader将MatePad Paper识别为墨水屏，所以全刷的调用接口就在它原生的UI里。
 
-现在 KOReader 里就是它原生那套菜单：
 
 ```
 设置（齿轮） → 屏幕 → E-ink settings → 全刷间隔
